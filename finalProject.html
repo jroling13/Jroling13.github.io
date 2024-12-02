@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEB-115 Final Project</title>
+    <style>
+        #banner {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="banner-container"></div>
+
+    <h1>WEB-115 Final Project</h1>
+    <h2>Custom Meal Plan</h2>
+    <p>Your Name - Course - Section</p>
+
+    <form id="mealPlan">
+        <label>Name: <input type="text" id="name" required></label><br><br>
+        <label>Email: <input type="email" id="email" required></label><br><br>
+        <label>Goal: <input type="text" id="goal" required></label><br><br>
+
+        <h3>Weekly Meal Plan</h3>
+        <label>Monday Breakfast: <input type="text" id="mondayBreakfast"></label><br><br>
+        <label>Tuesday Breakfast: <input type="text" id="tuesdayBreakfast"></label><br><br>
+        <label>Wednesday Breakfast: <input type="text" id="wednesdayBreakfast"></label><br><br>
+        <label>Thursday Breakfast: <input type="text" id="thursdayBreakfast"></label><br><br>
+        <label>Friday Breakfast: <input type="text" id="fridayBreakfast"></label><br><br>
+        <label>Saturday Breakfast: <input type="text" id="saturdayBreakfast"></label><br><br>
+        <label>Sunday Breakfast: <input type="text" id="sundayBreakfast"></label><br><br>
+
+        <button type="button" id="generate">Generate Meal Plan</button>
+        <button type="reset">Clear</button>
+    </form>
+
+    <script src="projectJS.js"></script>
+</body>
+</html>
